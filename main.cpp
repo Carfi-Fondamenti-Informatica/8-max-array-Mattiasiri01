@@ -1,6 +1,7 @@
 #include <iostream>
-#include "lib.h"
 using namespace std;
+#include "lib.h"
+
 
 int main{
   int dim=0;
@@ -10,6 +11,6 @@ int main{
     cin>>numeri[i];
   }
   
-  cout<<max(numeri, d);
+  cout<<max(numeri, dim);
   return 0;
 }
