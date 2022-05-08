@@ -1,1 +1,1 @@
-float max(float numeri[], int dim)
+float massimo(float numeri[], int dim)
