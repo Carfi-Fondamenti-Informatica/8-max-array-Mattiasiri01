@@ -1,6 +1,6 @@
 #include "lib.h"
 int i;
-float max(float numeri[], int d){
+float massimo(float numeri[], int d){
   float max=0;
   for(int i=0; i<dim; i++){
     if(max<numeri[i]){
