@@ -1,10 +1,11 @@
 #include "lib.h"
-float max(float numeri[], int dim){
-  float b=0;
+int i;
+float max(float numeri[], int d){
+  float max=0;
   for(int i=0; i<dim; i++){
-    if(b<numeri[i]){
-      b=numeri[i];
+    if(max<numeri[i]){
+      max=numeri[i];
     }
   }
-  return b;
+  return max;
 }
