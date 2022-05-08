@@ -11,6 +11,6 @@ int main{
     cin>>numeri[i];
   }
   
-  cout<<max(numeri, dim);
+  cout<<massimo(numeri, dim);
   return 0;
 }
